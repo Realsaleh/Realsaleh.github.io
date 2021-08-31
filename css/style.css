@@ -68,6 +68,10 @@ Description: Salehn Website Template
   padding: 0;
 }
 
+.avatar-size{
+  width: 250px;
+}
+
 html {
   margin: 0 !important;
   overflow: auto !important;
