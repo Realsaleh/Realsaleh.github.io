@@ -1,10 +1,10 @@
 @charset "UTF-8";
 /*
 Template Name: Salehn
-Version: 1.0
+Version: 1.1
 Author: Saleh Nasrolahi
 Author URI: https://salehn.ir
-Description: Saleh Website Template
+Description: Salehn Website Template
 
 */
 @font-face {
@@ -74,8 +74,6 @@ html {
 }
 
 body {
-  color: #5E5C7F;
-  background-color: #F9F9FF;
   font-family: 'Source Code Pro', monospace;
   font-size: 16px;
   line-height: 1.7;
@@ -146,295 +144,6 @@ a:focus {
   outline: 0;
 }
 
-blockquote {
-  padding: 20px 20px;
-  margin: 0 0 20px;
-  font-size: 16px;
-  background: #F7F7F7;
-  border-radius: 10px;
-}
-
-blockquote p {
-  line-height: 1.6;
-}
-
-/* === Pre === */
-pre {
-  display: block;
-  padding: 9.5px;
-  margin: 0 0 10px;
-  font-size: 13px;
-  line-height: 1.42857143;
-  color: #333;
-  word-break: break-all;
-  word-wrap: break-word;
-  background-color: #f5f5f5;
-  border: 1px solid #ccc;
-  border-radius: 0;
-}
-
-/*=================================================================*/
-/*                      PRELOADER                              
-/*=================================================================*/
-.infinity {
-  width: 120px;
-  height: 60px;
-  position: relative;
-}
-.infinity div,
-.infinity span {
-  position: absolute;
-}
-.infinity div {
-  top: 0;
-  left: 50%;
-  width: 60px;
-  height: 60px;
-  -webkit-animation: rotate 6.9s linear infinite;
-          animation: rotate 6.9s linear infinite;
-}
-.infinity div span {
-  left: -8px;
-  top: 50%;
-  margin: -8px 0 0 0;
-  width: 16px;
-  height: 16px;
-  display: block;
-  background: #FF4C60;
-  -webkit-box-shadow: 2px 2px 8px rgba(255, 76, 96, 0.09);
-          box-shadow: 2px 2px 8px rgba(255, 76, 96, 0.09);
-  border-radius: 50%;
-  -webkit-transform: rotate(90deg);
-      -ms-transform: rotate(90deg);
-          transform: rotate(90deg);
-  -webkit-animation: move 6.9s linear infinite;
-          animation: move 6.9s linear infinite;
-}
-.infinity div span:before, .infinity div span:after {
-  content: "";
-  position: absolute;
-  display: block;
-  border-radius: 50%;
-  width: 14px;
-  height: 14px;
-  background: inherit;
-  top: 50%;
-  left: 50%;
-  margin: -7px 0 0 -7px;
-  -webkit-box-shadow: inherit;
-          box-shadow: inherit;
-}
-.infinity div span:before {
-  -webkit-animation: drop1 0.8s linear infinite;
-          animation: drop1 0.8s linear infinite;
-}
-.infinity div span:after {
-  -webkit-animation: drop2 0.8s linear infinite 0.4s;
-          animation: drop2 0.8s linear infinite 0.4s;
-}
-.infinity div:nth-child(2) {
-  -webkit-animation-delay: -2.3s;
-          animation-delay: -2.3s;
-}
-.infinity div:nth-child(2) span {
-  -webkit-animation-delay: -2.3s;
-          animation-delay: -2.3s;
-}
-.infinity div:nth-child(3) {
-  -webkit-animation-delay: -4.6s;
-          animation-delay: -4.6s;
-}
-.infinity div:nth-child(3) span {
-  -webkit-animation-delay: -4.6s;
-          animation-delay: -4.6s;
-}
-
-.infinityChrome {
-  width: 128px;
-  height: 60px;
-}
-.infinityChrome div {
-  position: absolute;
-  width: 16px;
-  height: 16px;
-  background: #FF4C60;
-  -webkit-box-shadow: 2px 2px 8px rgba(255, 76, 96, 0.09);
-          box-shadow: 2px 2px 8px rgba(255, 76, 96, 0.09);
-  border-radius: 50%;
-  -webkit-animation: moveSvg 6.9s linear infinite;
-          animation: moveSvg 6.9s linear infinite;
-  -webkit-filter: url(#goo);
-  filter: url(#goo);
-  -webkit-transform: scaleX(-1);
-      -ms-transform: scaleX(-1);
-          transform: scaleX(-1);
-  offset-path: path("M64.3636364,29.4064278 C77.8909091,43.5203348 84.4363636,56 98.5454545,56 C112.654545,56 124,44.4117395 124,30.0006975 C124,15.5896556 112.654545,3.85282763 98.5454545,4.00139508 C84.4363636,4.14996252 79.2,14.6982509 66.4,29.4064278 C53.4545455,42.4803627 43.5636364,56 29.4545455,56 C15.3454545,56 4,44.4117395 4,30.0006975 C4,15.5896556 15.3454545,4.00139508 29.4545455,4.00139508 C43.5636364,4.00139508 53.1636364,17.8181672 64.3636364,29.4064278 Z");
-}
-.infinityChrome div:before, .infinityChrome div:after {
-  content: "";
-  position: absolute;
-  display: block;
-  border-radius: 50%;
-  width: 14px;
-  height: 14px;
-  background: inherit;
-  top: 50%;
-  left: 50%;
-  margin: -7px 0 0 -7px;
-  -webkit-box-shadow: inherit;
-          box-shadow: inherit;
-}
-.infinityChrome div:before {
-  -webkit-animation: drop1 0.8s linear infinite;
-          animation: drop1 0.8s linear infinite;
-}
-.infinityChrome div:after {
-  -webkit-animation: drop2 0.8s linear infinite 0.4s;
-          animation: drop2 0.8s linear infinite 0.4s;
-}
-.infinityChrome div:nth-child(2) {
-  -webkit-animation-delay: -2.3s;
-          animation-delay: -2.3s;
-}
-.infinityChrome div:nth-child(3) {
-  -webkit-animation-delay: -4.6s;
-          animation-delay: -4.6s;
-}
-
-@-webkit-keyframes moveSvg {
-  0% {
-    offset-distance: 0%;
-  }
-  25% {
-    background: #6C6CE5;
-  }
-  75% {
-    background: #FFD15C;
-  }
-  100% {
-    offset-distance: 100%;
-  }
-}
-
-@keyframes moveSvg {
-  0% {
-    offset-distance: 0%;
-  }
-  25% {
-    background: #6C6CE5;
-  }
-  75% {
-    background: #FFD15C;
-  }
-  100% {
-    offset-distance: 100%;
-  }
-}
-@-webkit-keyframes rotate {
-  50% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-    margin-left: 0;
-  }
-  50.0001%, 100% {
-    margin-left: -60px;
-  }
-}
-@keyframes rotate {
-  50% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-    margin-left: 0;
-  }
-  50.0001%, 100% {
-    margin-left: -60px;
-  }
-}
-@-webkit-keyframes move {
-  0%, 50% {
-    left: -8px;
-  }
-  25% {
-    background: #FFD15C;
-  }
-  75% {
-    background: #6C6CE5;
-  }
-  50.0001%, 100% {
-    left: auto;
-    right: -8px;
-  }
-}
-@keyframes move {
-  0%, 50% {
-    left: -8px;
-  }
-  25% {
-    background: #FFD15C;
-  }
-  75% {
-    background: #6C6CE5;
-  }
-  50.0001%, 100% {
-    left: auto;
-    right: -8px;
-  }
-}
-@-webkit-keyframes drop1 {
-  100% {
-    -webkit-transform: translate(32px, 8px) scale(0);
-            transform: translate(32px, 8px) scale(0);
-  }
-}
-@keyframes drop1 {
-  100% {
-    -webkit-transform: translate(32px, 8px) scale(0);
-            transform: translate(32px, 8px) scale(0);
-  }
-}
-@-webkit-keyframes drop2 {
-  0% {
-    -webkit-transform: translate(0, 0) scale(0.9);
-            transform: translate(0, 0) scale(0.9);
-  }
-  100% {
-    -webkit-transform: translate(32px, -8px) scale(0);
-            transform: translate(32px, -8px) scale(0);
-  }
-}
-@keyframes drop2 {
-  0% {
-    -webkit-transform: translate(0, 0) scale(0.9);
-            transform: translate(0, 0) scale(0.9);
-  }
-  100% {
-    -webkit-transform: translate(32px, -8px) scale(0);
-            transform: translate(32px, -8px) scale(0);
-  }
-}
-#preloader {
-  background: #353353;
-  height: 100%;
-  position: fixed;
-  width: 100%;
-  z-index: 1031;
-}
-#preloader .outer {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-}
-#preloader.light {
-  background: #F9F9FF;
-}
-
-.goo-outer {
-  display: none;
-}
-
 
 /*=================================================================*/
 /*                      SECTIONS                             
@@ -445,7 +154,7 @@ section {
 }
 
 section.home {
-  background: #353353;
+  background: #000;
   padding: 0;
   height: 100vh;
   min-height: 100vh;
@@ -468,95 +177,6 @@ section.home .intro span {
 section.home .social-icons li a {
   color: #FFF;
 }
-section.home.light {
-  background: #F9F9FF;
-}
-section.home.light .intro h1 {
-  color: #353353;
-}
-section.home.light .intro span {
-  color: #454360;
-}
-section.home.light .social-icons li a {
-  color: #353353;
-}
-section.home.light .social-icons li a:hover {
-  color: #FFD15C;
-}
-
-/*=================================================================*/
-/*                      PARALLAX SHAPES                              
-/*=================================================================*/
-.parallax {
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-}
-.parallax .layer {
-  position: absolute;
-}
-.parallax .p1 {
-  left: 10%;
-  top: 10%;
-}
-.parallax .p2 {
-  left: 25%;
-  top: 30%;
-}
-.parallax .p3 {
-  left: 15%;
-  bottom: 30%;
-}
-.parallax .p4 {
-  left: 10%;
-  bottom: 10%;
-}
-.parallax .p5 {
-  left: 45%;
-  top: 10%;
-}
-.parallax .p6 {
-  left: 40%;
-  bottom: 10%;
-}
-.parallax .p7 {
-  top: 20%;
-  right: 30%;
-}
-.parallax .p8 {
-  right: 30%;
-  bottom: 20%;
-}
-.parallax .p9 {
-  right: 10%;
-  top: 10%;
-}
-.parallax .p10 {
-  top: 45%;
-  right: 20%;
-}
-.parallax .p11 {
-  bottom: 10%;
-  right: 10%;
-}
-
-
-/*=================================================================*/
-/*                      DARK MODE                              
-/*=================================================================*/
-body.dark {
-  color: #FFF;
-  background-color: #353353;
-}
-body.dark .bg-dark {
-  background: #302f4e !important;
-}
-body.dark h1, body.dark h2, body.dark h3, body.dark h4, body.dark h5, body.dark h6 {
-  color: #FFF;
-}
-
 /* === Social Icons === */
 .social-icons li:not(:last-child) {
   margin-right: 1.5rem;
@@ -565,9 +185,8 @@ body.dark h1, body.dark h2, body.dark h3, body.dark h4, body.dark h5, body.dark 
   font-size: 21px;
 }
 .social-icons.light li a:hover {
-  color: #FFD15C;
+  color: #006600;
 }
-
 
 /*=================================================================*/
 /*                      RESPONSIVE SETTINGS
@@ -599,52 +218,7 @@ body {
     max-width: 920px;
   }
 }
-@media only screen and (max-width: 576px) {
-  .parallax .p1 {
-    left: 10%;
-    top: 10%;
-  }
-  .parallax .p2 {
-    left: 15%;
-    top: 30%;
-  }
-  .parallax .p3 {
-    left: 10%;
-    bottom: 30%;
-  }
-  .parallax .p4 {
-    left: 10%;
-    bottom: 10%;
-  }
-  .parallax .p5 {
-    left: 45%;
-    top: 3%;
-  }
-  .parallax .p6 {
-    left: 40%;
-    bottom: 10%;
-  }
-  .parallax .p7 {
-    top: 20%;
-    right: 30%;
-  }
-  .parallax .p8 {
-    right: 30%;
-    bottom: 20%;
-  }
-  .parallax .p9 {
-    right: 10%;
-    top: 5%;
-  }
-  .parallax .p10 {
-    top: 45%;
-    right: 10%;
-  }
-  .parallax .p11 {
-    bottom: 10%;
-    right: 10%;
-  }
-}
+
 @media (min-width: 1200px) {
   .container {
     max-width: 920px;
