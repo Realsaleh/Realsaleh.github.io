@@ -1,2 +1,3 @@
 User-Agent: *
 Disallow: /birthday/
+Disallow: /love/
