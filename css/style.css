@@ -184,5 +184,7 @@ body {
 @media only screen and (min-width: 600px) {
   .glitch { font-size: 4rem;}
   .glitch-icon { font-size: 12px; }
-  body { height: 30vh; }
+  .container {
+    height: 0px;
+  }
  }
