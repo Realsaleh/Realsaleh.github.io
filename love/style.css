@@ -252,3 +252,14 @@ canvas {
     transform: translate(0, -1000%) rotate(45deg);
   }
 }
+/* For mobile: */
+@media screen and (max-width: 600px) {
+	.the-heart-welcome-content > h1:nth-child(1) {
+		font-size: 60px;
+	}
+
+	.the-heart-welcome-tbl-c {
+		top: 57%;
+	  }
+	}
+/* For mobile end */
